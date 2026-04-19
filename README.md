@@ -18,3 +18,11 @@ Proyek ini memanfaatkan berbagai *library* dan *framework*, antara lain:
 - **Computer Vision & Visualisasi:** OpenCV (`opencv-python`), Pillow (`PIL`), Matplotlib
 - **Deployment / Tunneling:** Ngrok
 - **Optimasi & Utilitas:** `accelerate`, `safetensors`, `xformers` (opsional untuk efisiensi memori)
+
+## 🚀 Cara Menjalankan Proyek
+
+### 1. Uji Coba Model Pipeline (Eksplorasi)
+1. Unggah dan buka file `Pipeline_submission_BFGAI_ARYA GUNAWAN.ipynb` di **Google Colab**.
+2. Ubah tipe Runtime ke **GPU** (direkomendasikan menggunakan *Tesla T4*).
+3. Jalankan sel-sel awal untuk melakukan instalasi dependensi.
+4. Ikuti instruksi yang ada di dalam notebook untuk memuat *Base Pipeline Model* dan uji coba melakukan inferensi teks ke gambar.
