@@ -26,3 +26,10 @@ Proyek ini memanfaatkan berbagai *library* dan *framework*, antara lain:
 2. Ubah tipe Runtime ke **GPU** (direkomendasikan menggunakan *Tesla T4*).
 3. Jalankan sel-sel awal untuk melakukan instalasi dependensi.
 4. Ikuti instruksi yang ada di dalam notebook untuk memuat *Base Pipeline Model* dan uji coba melakukan inferensi teks ke gambar.
+
+### 2. Menjalankan Antarmuka Web (Streamlit)
+1. Unggah file `Streamlit_submission_BFGAI_ARYA GUNAWAN.ipynb` beserta file `app.py` dan `logic.py` ke dalam *file explorer* di Google Colab.
+2. Buka notebook tersebut dan pastikan Anda sudah melengkapi logika kode yang rumpang pada `logic.py`.
+3. Jalankan sel persiapan untuk setup Streamlit dan Ngrok.
+4. Saat menjalankan sel koneksi Ngrok, sebuah *Public URL* akan muncul di output (misalnya `https://xxxx.ngrok-free.app`). 
+5. Klik URL tersebut untuk membuka aplikasi web Streamlit Anda.
