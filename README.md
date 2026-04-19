@@ -33,3 +33,7 @@ Proyek ini memanfaatkan berbagai *library* dan *framework*, antara lain:
 3. Jalankan sel persiapan untuk setup Streamlit dan Ngrok.
 4. Saat menjalankan sel koneksi Ngrok, sebuah *Public URL* akan muncul di output (misalnya `https://xxxx.ngrok-free.app`). 
 5. Klik URL tersebut untuk membuka aplikasi web Streamlit Anda.
+
+### ⚠️ Catatan Penting
+- **Limit Penggunaan Ngrok:** Apabila Anda menemui peringatan limit/batas *endpoint usage* dari Ngrok, Anda dapat menjalankan *hidden cell* berisi perintah `ngrok.kill()` di dalam notebook untuk menghentikan dan mereset semua *tunnel* yang sedang aktif.
+- **Hugging Face Token:** Anda mungkin akan melihat peringatan koneksi *unauthenticated* jika tidak menetapkan `HF_TOKEN`. Disarankan menaruh token dari pengaturan Hugging Face Anda ke dalam Colab Secrets jika ingin mendownload *weights* model dengan lebih cepat.
